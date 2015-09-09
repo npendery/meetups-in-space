@@ -1,0 +1,14 @@
+<h1>New Meetup</h1>
+
+<form action="/new_meetup" method="post">
+  <label for="Name">Name</label>
+  <input type="text" name="meetup[name]" id="Name" required="You need to enter a meetup name!"/>
+
+  <label for="Location">Location</label>
+  <input type="text" name="meetup[location]" id="Location" required="You need to enter a meetup location!"/>
+
+  <label for="Description">Description</label>
+  <input type="text" name="meetup[description]" id="Description" required="You need to enter a meetup description!"/>
+
+  <input type="submit" value="Submit"/>
+</form>
